@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM
+    "http://google-web-toolkit.googlecode.com/svn/releases/2.0/distro-source/core/src/gwt-module.dtd">
+<module>
+  <inherits name="com.google.gwt.user.User" />
+  <entry-point class="com.chrome.gtw.client.Entry"/>
+
+  <generate-with class="com.chrome.gtw.linker.ExtensionGenerator">
+    <when-type-assignable class="com.chrome.gtw.client.Extension" />
+  </generate-with>
+  <generate-with class="com.chrome.gtw.linker.ComponentGenerator">
+    <when-type-assignable class="com.chrome.gtw.client.Component" />
+  </generate-with>
+  <define-linker name="crx" class="com.chrome.gtw.linker.ExtensionLinker" />
+  
+</module>
