@@ -2,7 +2,7 @@
 
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.chrome.gtw</groupId>
+	<groupId>com.chrome.gwt</groupId>
 
 	<artifactId>gwt-chrome-root</artifactId>
 	<packaging>pom</packaging>
@@ -11,6 +11,7 @@
 
 	<modules>
 		<module>gwt-chrome</module>
+		<module>helloworld</module>
 	</modules>
 	
 	<properties>
