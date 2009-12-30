@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-    <groupId>com.chrome.gtw</groupId>
+    <groupId>com.chrome.gwt</groupId>
 	<artifactId>gwt-chrome</artifactId>
 	<packaging>jar</packaging>
     <name>gwt-chrome</name>
 	<parent>
-	    <groupId>com.chrome.gtw</groupId>
+	    <groupId>com.chrome.gwt</groupId>
 	    <artifactId>gwt-chrome-root</artifactId>
 		<version>1.0-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>

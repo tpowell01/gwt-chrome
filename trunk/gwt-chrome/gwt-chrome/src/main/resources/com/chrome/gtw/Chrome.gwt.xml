@@ -3,14 +3,14 @@
     "http://google-web-toolkit.googlecode.com/svn/releases/2.0/distro-source/core/src/gwt-module.dtd">
 <module>
   <inherits name="com.google.gwt.user.User" />
-  <entry-point class="com.chrome.gtw.client.Entry"/>
+  <entry-point class="com.chrome.gwt.client.Entry"/>
 
-  <generate-with class="com.chrome.gtw.linker.ExtensionGenerator">
-    <when-type-assignable class="com.chrome.gtw.client.Extension" />
+  <generate-with class="com.chrome.gwt.linker.ExtensionGenerator">
+    <when-type-assignable class="com.chrome.gwt.client.Extension" />
   </generate-with>
-  <generate-with class="com.chrome.gtw.linker.ComponentGenerator">
-    <when-type-assignable class="com.chrome.gtw.client.Component" />
+  <generate-with class="com.chrome.gwt.linker.ComponentGenerator">
+    <when-type-assignable class="com.chrome.gwt.client.Component" />
   </generate-with>
-  <define-linker name="crx" class="com.chrome.gtw.linker.ExtensionLinker" />
+  <define-linker name="crx" class="com.chrome.gwt.linker.ExtensionLinker" />
   
 </module>
