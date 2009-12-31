@@ -4,7 +4,8 @@
 <module>
   <inherits name='com.google.gwt.dom.DOM' />
   <inherits name='com.google.gwt.core.Core' />
-  <inherits name="com.chrome.gwt.Chrome" />
+  <!--inherits name='com.google.gwt.chrome.crx.Extension' /-->
+  <inherits name='com.chrome.gwt.Chrome' />
   
   <define-property name="speedtracer.use_mock_model" values="please, nope" />
 

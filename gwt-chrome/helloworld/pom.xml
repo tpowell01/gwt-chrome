@@ -27,16 +27,20 @@
 			<artifactId>gwt-dev</artifactId>
 			<version>${gwt.version}</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>com.google.gwt</groupId>
 			<artifactId>gwt-servlet</artifactId>
 			<version>${gwt.version}</version>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.google.gwt</groupId>
 			<artifactId>gwt-user</artifactId>
 			<version>${gwt.version}</version>
+			<scope>provided</scope>
 		</dependency>
+		
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -67,6 +71,20 @@
 					<target>${maven.compiler.target}</target>
 				</configuration>
 			</plugin>
+			
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>gwt-maven-plugin</artifactId>
+				<configuration>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>compile</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>			
 		</plugins>
 
 	</build>
@@ -75,28 +93,6 @@
 		<profile>
 			<id>application</id>
 			<build>
-				<plugins>
-
-					<plugin>
-						<groupId>org.codehaus.mojo</groupId>
-						<artifactId>gwt-maven-plugin</artifactId>
-						<version>1.2-SNAPSHOT</version>
-						<configuration>
-							<disableCastChecking>true</disableCastChecking>
-							<disableClassMetadata>true</disableClassMetadata>
-						</configuration>
-						<executions>
-							<execution>
-								<phase>install</phase>
-								<goals>
-									<goal>generateAsync</goal>
-									<goal>compile</goal>
-								</goals>
-							</execution>
-						</executions>
-					</plugin>
-
-				</plugins>
 			</build>
 
 		</profile>

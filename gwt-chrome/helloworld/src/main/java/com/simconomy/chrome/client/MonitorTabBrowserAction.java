@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.chrome.example.helloworld.client;
+package com.simconomy.chrome.client;
 
 import com.chrome.gwt.client.BrowserAction;
 import com.chrome.gwt.client.Icon;
@@ -24,7 +24,7 @@ import com.chrome.gwt.client.Icon.Source;
  * The MonitorTab page action with button.
  */
 @ManifestInfo(name = "MonitorTab", defaultIcon = "mt-icon.png")
-public abstract class HelloWorldTabBrowserAction extends BrowserAction {
+public abstract class MonitorTabBrowserAction extends BrowserAction {
   @Source("mt-icon.png")
   public abstract Icon mtIcon();
 

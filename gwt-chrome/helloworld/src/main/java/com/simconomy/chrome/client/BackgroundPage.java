@@ -1,9 +1,10 @@
-package com.chrome.example.helloworld.client;
+package com.simconomy.chrome.client;
 
 import com.chrome.gwt.client.Extension;
 import com.chrome.gwt.client.Icon;
 import com.chrome.gwt.client.Tabs.Tab;
 import com.chrome.gwt.client.events.BrowserActionEvent;
+
 import com.google.gwt.core.client.GWT;
 
 @Extension.ManifestInfo(name = "GWT Chromium Hello World", 
@@ -29,8 +30,8 @@ public abstract class BackgroundPage extends Extension {
 	// private final HashMap<Integer, BrowserConnectionState>
 	// browserConnectionMap = new HashMap<Integer, BrowserConnectionState>();
 
-	private final HelloWorldTabBrowserAction browserAction = GWT
-			.create(HelloWorldTabBrowserAction.class);
+	private final MonitorTabBrowserAction browserAction = GWT
+			.create(MonitorTabBrowserAction.class);
 
 	@Override
 	public void onBackgroundPageLoad() {
