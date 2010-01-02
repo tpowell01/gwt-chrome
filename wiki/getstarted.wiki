@@ -1,3 +1,4 @@
+#labels Featured
 = Tutorial: Getting Started (Hello, World!) =
 
 This tutorial walks you through creating a simple GWT extension. You'll add an icon to Google Chrome that, when clicked, displays an automatically generated page. The icon and page will look something like this: 
