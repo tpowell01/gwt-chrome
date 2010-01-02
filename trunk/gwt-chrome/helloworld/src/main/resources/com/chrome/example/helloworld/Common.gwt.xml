@@ -3,6 +3,7 @@
     "http://google-web-toolkit.googlecode.com/svn/releases/2.0/distro-source/core/src/gwt-module.dtd">
 <module>
   <inherits name='com.google.gwt.dom.DOM' />
+  <inherits name='com.google.gwt.xml.XML' />
   <inherits name='com.google.gwt.core.Core' />
   <!--inherits name='com.google.gwt.chrome.crx.Extension' /-->
   <inherits name='com.chrome.gwt.Chrome' />
