@@ -2,12 +2,15 @@
 
 = Samples =
 
-Add your content here.
+This page shows some sample extensions, with links that let you install them and find their source code. Each sample also has links to the documentation for each feature used by the sample.
 
+*Note*: To run these samples, you need to get on an early access release channel of Google Chrome. The normal, "Stable channel" release of Google Chrome doesn't yet support extensions.
 
-= Details =
+    * Windows or Linux: Subscribe to the [http://www.google.com/landing/chrome/beta/ Beta channel]
+    * Mac: Subscribe to the [http://www.chromium.org/getting-involved/dev-channel#TOC-Mac Dev channel]
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+----
+
+----
+
+== Sample extensions ==
