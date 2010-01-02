@@ -4,11 +4,15 @@ This tutorial walks you through creating a simple GWT extension. You'll add an i
 
 http://gwt-chrome.googlecode.com/svn/wiki/images/hello-world-small.png
 
+----
+
 *Contents*
 
      <div>[getstarted#Get_your_browser_ready Get your browser ready]</div>
      <div>[getstarted#Create_and_load_an_extension Create and load an extension]</div>
 
+----
+ 
 == Get your browser ready ==
 
 To develop extensions for Google Chrome, you need to get on an early access release channel of Google Chrome. The normal, "Stable channel" release of Google Chrome doesn't yet support extensions (but we're working hard on that!).
