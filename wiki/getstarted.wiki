@@ -1,8 +1,6 @@
-#sidebar TableOfContents
-
 = Tutorial: Getting Started (Hello, World!) =
 
-This tutorial walks you through creating a simple extension. You'll add an icon to Google Chrome that, when clicked, displays an automatically generated page. The icon and page will look something like this: 
+This tutorial walks you through creating a simple GWT extension. You'll add an icon to Google Chrome that, when clicked, displays an automatically generated page. The icon and page will look something like this: 
 
 http://gwt-chrome.googlecode.com/svn/wiki/images/hello-world-small.png
 
@@ -12,3 +10,5 @@ To develop extensions for Google Chrome, you need to get on an early access rele
 
     * *Windows* or *Linux*: Subscribe to the [http://www.google.com/landing/chrome/beta/ Beta channel]
     * *Mac*: Subscribe to the [http://www.chromium.org/getting-involved/dev-channel#TOC-Mac Dev channel]
+
+== Create and load an extension ==
