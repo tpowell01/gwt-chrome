@@ -6,7 +6,7 @@ http://gwt-chrome.googlecode.com/svn/wiki/images/hello-world-small.png
 
 *Contents*
 
-[getstarted#Get your browser ready]
+[getstarted#Get_your_browser_ready]
 
 
 == Get your browser ready ==
