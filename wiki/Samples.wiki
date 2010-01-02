@@ -6,8 +6,8 @@ This page shows some sample extensions, with links that let you install them and
 
 *Note*: To run these samples, you need to get on an early access release channel of Google Chrome. The normal, "Stable channel" release of Google Chrome doesn't yet support extensions.
 
-    * Windows or Linux: Subscribe to the [http://www.google.com/landing/chrome/beta/ Beta channel]
-    * Mac: Subscribe to the [http://www.chromium.org/getting-involved/dev-channel#TOC-Mac Dev channel]
+    * *Windows* or *Linux*: Subscribe to the [http://www.google.com/landing/chrome/beta/ Beta channel]
+    * *Mac*: Subscribe to the [http://www.chromium.org/getting-involved/dev-channel#TOC-Mac Dev channel]
 
 ----
 
