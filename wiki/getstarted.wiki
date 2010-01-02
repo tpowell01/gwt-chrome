@@ -1,16 +1,12 @@
-#summary Tutorial: Getting Started (Hello, World!)
 #sidebar TableOfContents
+
+= Tutorial: Getting Started (Hello, World!) =
 
 This tutorial walks you through creating a simple extension. You'll add an icon to Google Chrome that, when clicked, displays an automatically generated page. The icon and page will look something like this: 
 
 == Get your browser ready ==
 
-Add your content here.
+To develop extensions for Google Chrome, you need to get on an early access release channel of Google Chrome. The normal, "Stable channel" release of Google Chrome doesn't yet support extensions (but we're working hard on that!).
 
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+    * Windows or Linux: Subscribe to the Beta channel
+    * Mac: Subscribe to the Dev channel
