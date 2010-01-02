@@ -12,6 +12,7 @@
 	<modules>
 		<module>gwt-chrome</module>
 		<module>getstarted</module>
+		<module>gmail</module>
 	</modules>
 	
 	<properties>
