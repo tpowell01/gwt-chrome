@@ -11,7 +11,7 @@
 
 	<modules>
 		<module>gwt-chrome</module>
-		<module>helloworld</module>
+		<module>getstarted</module>
 	</modules>
 	
 	<properties>
@@ -19,8 +19,8 @@
 		<!-- convenience to define GWT version in one place -->
 		<gwt.version>2.0.0</gwt.version>
 		<!--  tell the compiler we can use 1.5 -->
-		<maven.compiler.source>1.6</maven.compiler.source>
-		<maven.compiler.target>1.6</maven.compiler.target>
+		<maven.compiler.source>1.5</maven.compiler.source>
+		<maven.compiler.target>1.5</maven.compiler.target>
 
 	</properties>
 		
@@ -60,6 +60,10 @@
 		</pluginRepository>		
 	</pluginRepositories>	
 	<repositories>
+        <repository>
+                 <id>edgebox-release</id>
+                 <url>http://edgebox.googlecode.com/svn/repo-release/</url>
+        </repository>
 		<repository>
 			<id>gwt-maven</id>
 			<url>http://gwt-maven.googlecode.com/svn/trunk/mavenrepo</url>

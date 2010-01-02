@@ -4,9 +4,9 @@
 
 	<modelVersion>4.0.0</modelVersion>
     <groupId>com.chrome.gwt</groupId>
-	<artifactId>helloworld</artifactId>
+	<artifactId>getstarted</artifactId>
 	<packaging>jar</packaging>
-    <name>helloworld</name>
+	<name>getstarted</name>
 	<parent>
 	    <groupId>com.chrome.gwt</groupId>
 	    <artifactId>gwt-chrome-root</artifactId>
