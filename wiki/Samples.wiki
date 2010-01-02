@@ -11,6 +11,16 @@ This page shows some sample extensions, with links that let you install them and
 
 ----
 
+*Contents*
+
+     <div>[Samples#Sample_extensions Sample extensions]</div>
+     <div>[getstarted#Other_sample_extensions Other sample extensions]</div>
+     <div>[getstarted#How_to_view_the_source_code How to view the source code]</div>
+
 ----
 
 == Sample extensions ==
+
+== Other sample extensions ==
+
+== How to view the source code ==
