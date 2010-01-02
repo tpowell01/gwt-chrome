@@ -1,4 +1,5 @@
 #labels Featured
+#sumary This tutorial walks you through creating a simple GWT extension.
 = Tutorial: Getting Started (Hello, World!) =
 
 This tutorial walks you through creating a simple GWT extension. You'll add an icon to Google Chrome that, when clicked, displays an automatically generated page. The icon and page will look something like this: 
@@ -16,7 +17,7 @@ http://gwt-chrome.googlecode.com/svn/wiki/images/hello-world-small.png
  
 == Get your browser ready ==
 
-To develop extensions for Google Chrome, you need to get on an early access release channel of Google Chrome. The normal, "Stable channel" release of Google Chrome doesn't yet support extensions (but we're working hard on that!).
+To develop extensions for Google Chrome, you need to get on an early access release channel of Google Chrome. The normal, "Stable channel" release of Google Chrome doesn't yet support extensions (but they're working hard on that!).
 
     * *Windows* or *Linux*: Subscribe to the [http://www.google.com/landing/chrome/beta/ Beta channel]
     * *Mac*: Subscribe to the [http://www.chromium.org/getting-involved/dev-channel#TOC-Mac Dev channel]
