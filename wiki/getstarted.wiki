@@ -8,5 +8,5 @@ This tutorial walks you through creating a simple extension. You'll add an icon 
 
 To develop extensions for Google Chrome, you need to get on an early access release channel of Google Chrome. The normal, "Stable channel" release of Google Chrome doesn't yet support extensions (but we're working hard on that!).
 
-    * Windows or Linux: Subscribe to the Beta channel
-    * Mac: Subscribe to the Dev channel
+    * *Windows* or *Linux*: Subscribe to the [http://www.google.com/landing/chrome/beta/ Beta channel]
+    * *Mac*: Subscribe to the [http://www.chromium.org/getting-involved/dev-channel#TOC-Mac Dev channel]
