@@ -6,8 +6,8 @@ http://gwt-chrome.googlecode.com/svn/wiki/images/hello-world-small.png
 
 *Contents*
 
-     [getstarted#Get_your_browser_ready Get your browser ready]
-     [getstarted#Create_and_load_an_extension Create and load an extension]
+     <div>[getstarted#Get_your_browser_ready Get your browser ready]</div>
+     <div>[getstarted#Create_and_load_an_extension Create and load an extension]</div>
 
 == Get your browser ready ==
 
