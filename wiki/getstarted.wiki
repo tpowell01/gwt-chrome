@@ -4,6 +4,8 @@
 
 This tutorial walks you through creating a simple extension. You'll add an icon to Google Chrome that, when clicked, displays an automatically generated page. The icon and page will look something like this: 
 
+http://gwt-chrome.googlecode.com/svn/wiki/images/hello-world-small.png
+
 == Get your browser ready ==
 
 To develop extensions for Google Chrome, you need to get on an early access release channel of Google Chrome. The normal, "Stable channel" release of Google Chrome doesn't yet support extensions (but we're working hard on that!).
