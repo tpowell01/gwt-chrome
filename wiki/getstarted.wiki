@@ -8,6 +8,7 @@ http://gwt-chrome.googlecode.com/svn/wiki/images/hello-world-small.png
 
 [getstarted#Get_your_browser_ready Get your browser ready]
 
+<wiki:toc max_depth="1" />
 
 == Get your browser ready ==
 
