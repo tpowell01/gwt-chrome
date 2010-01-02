@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE module SYSTEM
-    "http://google-web-toolkit.googlecode.com/svn/releases/2.0/distro-source/core/src/gwt-module.dtd">
-<module rename-to="extension">
-  <inherits name="com.simconomy.chrome.Common" />
-  <entry-point class="com.simconomy.chrome.client.BackgroundPage" />
-  <add-linker name="crx" />
-  <public path="extension/public" />
-</module>
